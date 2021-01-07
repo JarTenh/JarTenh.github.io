@@ -1,1 +1,70 @@
-"Hello World!" 
+<html lang="en">
+<head>
+    <title>JarTenh Homepage</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./resources/styles/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f54761e10a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h3>Jarkko Tenhola</h3>
+        <img id="small-headshot" src="./resources/images/face.png" alt="Heashot of Jarkko Tenhola">
+        <nav>
+            <ul>
+                <a href="#about-me"><li>About me</li></a>
+                <a href="#projects"><li>Projects</li></a>
+                <a href="#skills"><li>Skills</li></a>
+                <a href="#contact"><li>Contact</li></a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Welcome to My Homepage!</h1>
+        <section id="about-me">
+            <h2>About me</h2>
+            <img id="headshot" src="./resources/images/face.png" alt="Heashot of Jarkko Tenhola">
+            <p>My name is Jarkko Tenhola, and I'm a curious human being. I always want to learn new things, and one
+                of my favorite subjects is learning to code. This involves learning how to develop clean, effective
+                and responsive websites, to analyze data using Python or R, or even to tackle machine learning consepts.
+            </p>
+            <p>My main sources for learning to code are Open University of Helsinki, Codecademy, Datacamp and Udemy.
+                The main focus of this site is to showcase my coding projects, so feel free to check them out. Some of 
+                the projects are portfolio-projects from Codecademy and some are my own.
+            </p>
+            <p>My goal is to be able to use my coding skills in working life. If you're interested in contacting me
+                feel free to do so. You'll find my contact info from the footer.
+            </p>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>This section contains some of my projects from Codecademy and from my own dear head. Feel free to check
+                them out and play with them. You can read the caption from each individual project by hovering your mouse
+                over it.
+            </p>
+            <article class="container">
+                <a href="https://jartenh.github.io/colmar_academy/" target="blank">
+                    <figure id="colmar-academy">
+                        <figcaption>Colmar Academy</figcaption>
+                        <i class="fas fa-info-circle fa-lg show-info"></i>
+                        <p class="info" id="info-0">This project from Codecademy is about making website responsive. The primary
+                            tool used is flexbox. Resize your screen to see the effects.
+                        </p>
+                        <img class="fig-img" src="./resources/images/colmar.jpg" alt="colmar-academy project">
+                    </figure>
+                </a>
+            </article>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <p>This is the skill section. I'll be adding these as soon as possible.</p>
+        </section>
+    </main>
+    <footer id="contact">
+        <p>Here is my contact information:</p>
+    </footer>
+    <script src="./resources/scripts/main.js"></script>
+</body>
+</html>
